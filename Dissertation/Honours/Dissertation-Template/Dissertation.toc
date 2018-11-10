@@ -1,0 +1,66 @@
+\contentsline {section}{\numberline {1}Chapter 1: Introduction}{9}
+\contentsline {subsection}{\numberline {1.1}Background}{9}
+\contentsline {subsection}{\numberline {1.2}Motivation}{10}
+\contentsline {subsection}{\numberline {1.3}Aims, Objectives and Scope}{10}
+\contentsline {subsection}{\numberline {1.4}Outline}{11}
+\contentsline {subsection}{\numberline {1.5}Summary}{12}
+\contentsline {section}{\numberline {2}Chapter 2: Literary Review}{13}
+\contentsline {subsection}{\numberline {2.1}Microservice}{13}
+\contentsline {subsubsection}{\numberline {2.1.1}Services Are independently deployable}{14}
+\contentsline {subsubsection}{\numberline {2.1.2}Services are built around business capabilities}{14}
+\contentsline {subsubsection}{\numberline {2.1.3}Services are fine-grained Interfaces}{15}
+\contentsline {subsubsection}{\numberline {2.1.4}Services are designed to fail}{17}
+\contentsline {subsubsection}{\numberline {2.1.5}Microservice Architecture has a natural modular Structure}{17}
+\contentsline {subsubsection}{\numberline {2.1.6}Encourages Infrastructure Automation and Testing}{17}
+\contentsline {subsubsection}{\numberline {2.1.7}Introduces the concept of you built it you own it}{19}
+\contentsline {subsection}{\numberline {2.2}Domain Driven Design}{20}
+\contentsline {subsubsection}{\numberline {2.2.1}The Domain}{20}
+\contentsline {subsubsection}{\numberline {2.2.2}Bounded Context}{20}
+\contentsline {subsection}{\numberline {2.3}Single-Responsibility Principle}{22}
+\contentsline {subsection}{\numberline {2.4}RESTful}{23}
+\contentsline {subsubsection}{\numberline {2.4.1}Communication}{23}
+\contentsline {paragraph}{\numberline {2.4.1.1}Synchronous}{23}
+\contentsline {paragraph}{\numberline {2.4.1.2}Asynchronous}{24}
+\contentsline {subsubsection}{\numberline {2.4.2}API}{24}
+\contentsline {subsubsection}{\numberline {2.4.3}CRUD Implementation}{24}
+\contentsline {subsection}{\numberline {2.5}polyglot Programming \& Persistence}{25}
+\contentsline {subsection}{\numberline {2.6}Virtualisation}{26}
+\contentsline {subsection}{\numberline {2.7}Asp.Net}{27}
+\contentsline {subsubsection}{\numberline {2.7.1}Razor Pages}{27}
+\contentsline {subsection}{\numberline {2.8}Java Web Development}{28}
+\contentsline {subsection}{\numberline {2.9}Conclusion}{29}
+\contentsline {section}{\numberline {3}Chapter 3: Proposed Design}{30}
+\contentsline {subsection}{\numberline {3.1}Test}{30}
+\contentsline {section}{\numberline {4}Chapter 4: Prototype}{31}
+\contentsline {subsection}{\numberline {4.1}Analysis}{31}
+\contentsline {subsection}{\numberline {4.2}Requirement Specification}{31}
+\contentsline {subsubsection}{\numberline {4.2.1}Purpose}{31}
+\contentsline {subsubsection}{\numberline {4.2.2}Project Brief}{31}
+\contentsline {subsubsection}{\numberline {4.2.3}Scope}{32}
+\contentsline {subsubsection}{\numberline {4.2.4}Resources}{32}
+\contentsline {subsubsection}{\numberline {4.2.5}User Requirement}{33}
+\contentsline {subsubsection}{\numberline {4.2.6}System Overview}{33}
+\contentsline {subsubsection}{\numberline {4.2.7}System Architecture}{33}
+\contentsline {subsubsection}{\numberline {4.2.8}Functional Requirements}{34}
+\contentsline {paragraph}{\numberline {4.2.8.1}Authentication Service}{34}
+\contentsline {paragraph}{\numberline {4.2.8.2}Catalogue Service}{35}
+\contentsline {paragraph}{\numberline {4.2.8.3}Search Service}{35}
+\contentsline {paragraph}{\numberline {4.2.8.4}Basket Service}{35}
+\contentsline {paragraph}{\numberline {4.2.8.5}Payment Service}{35}
+\contentsline {paragraph}{\numberline {4.2.8.6}Administrator service}{35}
+\contentsline {paragraph}{\numberline {4.2.8.7}Customer service service}{35}
+\contentsline {paragraph}{\numberline {4.2.8.8}Customer service}{35}
+\contentsline {subsubsection}{\numberline {4.2.9}Non-Functional Requirements}{36}
+\contentsline {subsubsection}{\numberline {4.2.10}Performance}{36}
+\contentsline {subsubsection}{\numberline {4.2.11}Glossary}{36}
+\contentsline {subsection}{\numberline {4.3}Design}{36}
+\contentsline {subsection}{\numberline {4.4}Development}{36}
+\contentsline {subsection}{\numberline {4.5}Testing}{36}
+\contentsline {subsection}{\numberline {4.6}Evaluation}{36}
+\contentsline {section}{\numberline {5}Chapter 5: Conclusion/Evaluation}{37}
+\contentsline {section}{Appendices}{40}
+\contentsline {section}{\numberline {A}Project Initiation Document}{40}
+\contentsline {subsection}{\numberline {A.A}Example sub appendices}{40}
+\contentsline {section}{\numberline {B}Second Formal Review Output}{40}
+\contentsline {section}{\numberline {C}Diary Sheets (or other project management evidence)}{40}
+\contentsline {section}{\numberline {D}Appendix 4 and following}{40}

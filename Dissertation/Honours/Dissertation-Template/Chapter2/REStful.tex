@@ -1,0 +1,25 @@
+Representational State Transfer (REST) is an architectural style for systems built on the web \cite{SchroderMSA} \& \cite{NewmanMSA}. REST is used to build on protocols and standards like HTTP.  It uses HTTP, and similar protocols, to do more than static web content. 
+
+Using the verbs available through HTTP, the REST architecture style prevents the need to create a multitude of different methods to do the same thing \cite{NewmanMSA}. For example, an object of a new customer created would only need to call the verb POST to request the server create a new resource and perform the request. GET would only need to be called to retrieve the representation of a resource. 
+
+REST can also make use of the large HTTP ecosystem: caching proxies, load balancers, monitoring tools, security protocols etc. These allow REST architectures to handle large volumes of HTTP traffic and route them in a transparent and fair way \cite{NewmanMSA}. And handle the security of communications from basic authentication to client certificates.
+
+It uses the HTTP verbs to manipulates resources. This can be used to implement the CRUD (Create Read Update Delete) principle when using databases.
+
+Newmann \cite{NewmanMSA} describes the most important concept of using REST is resources. Resources are viewed, by services, as a "thing" it knows about. The resources can have different representations, depending on the server request. This flexibility allows complete decoupling from the external representation of a resource to how it is stored.
+
+\subsubsection{Communication}
+Each service can be deployed on different machines or they can all be deployed from a single machine. Depending on the quantity of microservices created and the hardware/software availability of businesses.
+Even though no service should have a dependency on another service, it is accepted that, at times, services may need to communicate with each other to update information stored in the services’ database. This type of communication be done in numerous ways:
+	\paragraph{Synchronous}
+	This type of communication involves communicating with a remote server and transferring blocks of data in a continuous and consistent timed manner \cite{SynchAsynch}. Primarily designed for transmission of large blocks of data, it is real-time, bi-directional communication between the client and server. 
+	
+	Microsoft \cite{.NetMSA} describes the main disadvantage of this form of communication is the remaining code to execute, from the client side, must wait for a response to this communication before the rest of the thread can execute. This could result in delays and high levels of Latency.
+	\paragraph{Asynchronous}
+	Sam Newman \cite{NewmanMSA} describes this form of communication is inherently event driven. The client does not request an initiation for things to be done. Instead the client states something has happened and then assumes the other parties involved (server side etc.) know what to do. Asynchronous communications are inherently decoupled. 
+	Microsoft developers \cite{.NetMSA} add to this by stating The client code sender does not wait for a response to continue with code execution.
+\subsubsection{API}
+Using Application Program Interfaces in a web-based MSA system allows decoupling of the microservices themselves. By this, each Microservice can be only accessed through its corresponding API only. Providing a means to decouple the services as the only, potential, interaction between each would only be done through the API, not actually accessing the service directly. This style of implementation can be achieved with use of an API gateway.
+
+The Front-end user interface will pass requests, from the user, to the gateway which will then implement the required Microservice through its API.
+\subsubsection{CRUD Implementation}

@@ -1,0 +1,26 @@
+This section covers Domain Driven Design. Software development is made complex by multiple factors. One of these being the problem domain. 
+\subsubsection{The Domain}
+Eric Evans \cite{EvansDDD} describes the domain, of any software program, as the representation of a real-world domain. Such as an airline booking program booking people onto an air plane, a finance software system dealing with money and finance. He goes on to explain that the domain is formed from models that are a simplification of aspects of a real-world domain.
+
+\subsubsection{Bounded Context}
+The bounded context of Domain Driven Design is described as the boundary of a coherent part of the business by Andreas et al \cite{mci/Diepenbrock2017}. Martin Fowler \cite{MFowlerDDD} provides a similar description when he says that the bounded context is necessary when creating a software system based on a large business domain. As it is difficult to build a single, unified model. Eric Evans \cite{EvansDDD} has a similar view point to this.
+Each bounded Context defines what is to be included within it, what is not and its relationship with other bounded contexts, this includes communication. Each bounded context, in a software system, contains a model that is a representation of a real world aspect of the business domain. The model would contain classes, attributes and methods that describe domain concepts. Martin Fowler explains: "To be effective, a model needs to be unified - that is to be internally consistent so that there are no contradictions within it." \cite{MFowlerDDD}
+For example (should I include this?), In the context of this project. A bounded context for the software system could be a customer support/services Context. The Context-model of this business Domain could contain the following classes:
+\begin{itemize}
+	\item Customer 
+	\\ Contains the attributes that represents a customer - name, contact details etc. 
+	\item Ticket
+	\\ Attributes including ticket number, type of issue, description, order number related to it etc.
+	\item Ticket communication
+	\\ Contains information on what has been done to resolve the issue 
+	\item Product
+	\\ Provides a description of the product - name, type, price etc.
+\end{itemize}
+From this example, it can be deduced that other bounded contexts will be created, to model the other aspects of the business domain and these contexts would then combine to model the actual business domain itself. Some of the bounded contexts modelling will contain similar classes, with similar attributes. Such as the above Customer and Product Classes. These would be similar to, for example, a context of the sales context. This model would contain a class for customer and product. The former being the customers identity and the latter the description of the product. There would be some form of communication between these contexts to ensure the data help in each model is the same, were shared. So both contexts are consistent within themselves and as models of the domain.
+
+As each Bounded Context is conceptualised, the individual Microservices can be discovered. There are issues with using this design for discovering Microservices. Florian Rademacher et al\cite{DDDChallenges} discuses how using Domain Driven Design omits the following information when deducing the Microservices and their characteristics:
+\begin{itemize}
+	\item Interfaces and operations
+	\item operational parameters and return types
+	\item endpoints, protocols and message formats
+\end{itemize}

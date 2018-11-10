@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{ServiceArchiBarry}
+Douglas~K. Barry.
+\newblock Service architecture, 2000.
+
+\bibitem{MartinFowlersite}
+Martine Fowler.
+\newblock Microservices, 2014.
+
+\bibitem{SoADummies}
+Judith Hurwitz, Robin Bloor, Marcia Kaufman, and Fern Halper.
+\newblock {\em Service Orientated Architecture for dummies}.
+\newblock Wiley, 2 edition, 2009.
+
+\bibitem{MonolithMargaret}
+Margaret Rouse.
+\newblock Monolithic architecture, 2016.
+
+\end{thebibliography}

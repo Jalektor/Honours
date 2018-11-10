@@ -1,0 +1,487 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.3)  25 OCT 2018 21:40
+entering extended mode
+**./Dissertation.tex
+(Dissertation.tex
+LaTeX2e <2018-04-01> patch level 5
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cl
+s"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo
+"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titles
+ec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip43
+\aftertitleunit=\skip44
+\ttl@plus=\dimen103
+\ttl@minus=\dimen104
+\ttl@toksa=\toks14
+\titlewidth=\dimen105
+\titlewidthlast=\dimen106
+\titlewidthfirst=\dimen107
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyh
+dr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip45
+\f@nch@O@elh=\skip46
+\f@nch@O@erh=\skip47
+\f@nch@O@olh=\skip48
+\f@nch@O@orh=\skip49
+\f@nch@O@elf=\skip50
+\f@nch@O@erf=\skip51
+\f@nch@O@olf=\skip52
+\f@nch@O@orf=\skip53
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.s
+ty"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
+.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cs.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.s
+ty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gr
+aphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pd
+ftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\bookta
+bs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen110
+\lightrulewidth=\dimen111
+\cmidrulewidth=\dimen112
+\belowrulesep=\dimen113
+\belowbottomsep=\dimen114
+\aboverulesep=\dimen115
+\abovetopsep=\dimen116
+\cmidrulesep=\dimen117
+\cmidrulekern=\dimen118
+\defaultaddspace=\dimen119
+\@cmidla=\count88
+\@cmidlb=\count89
+\@aboverulesep=\dimen120
+\@belowrulesep=\dimen121
+\@thisruleclass=\count90
+\@lastruleclass=\count91
+\@thisrulewidth=\dimen122
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen123
+\ar@mcellbox=\box27
+\extrarowheight=\dimen124
+\NC@list=\toks18
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box28
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\paralist\parali
+st.sty"
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip56
+\plpartopsep=\skip57
+\plitemsep=\skip58
+\plparsep=\skip59
+\pl@lab=\toks19
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.
+sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks20
+\verbatim@line=\toks21
+\verbatim@in@stream=\read1
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subfig.s
+ty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
+.sty"
+Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
+3.sty"
+Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen125
+\captionmargin@=\dimen126
+\captionwidth=\dimen127
+\caption@tempdima=\dimen128
+\caption@indent=\dimen129
+\caption@parindent=\dimen130
+\caption@hangindent=\dimen131
+)
+\c@ContinuedFloat=\count92
+)
+\c@KVtest=\count93
+\sf@farskip=\skip60
+\sf@captopadj=\dimen132
+\sf@capskip=\skip61
+\sf@nearskip=\skip62
+\c@subfigure=\count94
+\c@subfigure@save=\count95
+\c@lofdepth=\count96
+\c@subtable=\count97
+\c@subtable@save=\count98
+\c@lotdepth=\count99
+\sf@top=\skip63
+\sf@bottom=\skip64
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\appendix\append
+ix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count100
+\c@@ppsavesec=\count101
+\c@@ppsaveapp=\count102
+) (Dissertation.aux)
+\openout1 = `Dissertation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
+.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen133
+\scratchbox=\box29
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen134
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks23
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
+df-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infw
+arerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext
+.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvde
+finekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxc
+mds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopti
+ons.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvse
+tkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etex
+cmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflu
+atex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdft
+excmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpd
+f.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (Dissertation-Title.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 19.
+ [1
+
+{C:/Users/Jonathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (Disser
+tation-Dec.tex) [1] (Dissertation-DP.tex)
+[2] [3] (Dissertation.toc [4])
+\tf@toc=\write3
+\openout3 = `Dissertation.toc'.
+
+ [5] (Dissertation.lot)
+\tf@lot=\write4
+\openout4 = `Dissertation.lot'.
+
+ [6] (Dissertation.lof)
+\tf@lof=\write5
+\openout5 = `Dissertation.lof'.
+
+
+[7] [8] (Chp1Intro.tex
+Overfull \hbox (6.55421pt too wide) in paragraph at lines 3--7
+[]\OT1/cmr/m/n/12 Traditionally, soft-ware ap-pli-ca-tions/systems are de-vel-o
+ped us-ing the Mono-
+ []
+
+[9] [10]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
+
+("C:\Users\Jonathan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
+ [11]) (Chp2LitReview.tex [12] (Chapter2/Microservices.tex
+<./Images/MSAexample.png, id=49, 453.94594pt x 228.855pt>
+File: ./Images/MSAexample.png Graphic file (type png)
+<use ./Images/MSAexample.png>
+Package pdftex.def Info: ./Images/MSAexample.png  used on input line 11.
+(pdftex.def)             Requested size: 453.94482pt x 228.85443pt.
+
+Overfull \hbox (63.94482pt too wide) in paragraph at lines 11--13
+ [][] 
+ []
+
+[13 <./Images/MSAexample.png>]
+<./Images/ConwaysLaw.png, id=53, 444.91219pt x 350.05782pt>
+File: ./Images/ConwaysLaw.png Graphic file (type png)
+<use ./Images/ConwaysLaw.png>
+Package pdftex.def Info: ./Images/ConwaysLaw.png  used on input line 35.
+(pdftex.def)             Requested size: 444.91109pt x 350.05695pt.
+
+Overfull \hbox (54.91109pt too wide) in paragraph at lines 35--37
+ [][] 
+ []
+
+<./Images/ConwaysLawOpposite.png, id=54, 475.7775pt x 257.46187pt>
+File: ./Images/ConwaysLawOpposite.png Graphic file (type png)
+<use ./Images/ConwaysLawOpposite.png>
+Package pdftex.def Info: ./Images/ConwaysLawOpposite.png  used on input line 42
+.
+(pdftex.def)             Requested size: 475.77632pt x 257.46123pt.
+
+Overfull \hbox (85.77632pt too wide) in paragraph at lines 42--44
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./Images/ConwaysLaw.png>] [16 <./Images/ConwaysLawOpposite.png>] [17]
+<./Images/AutomatedTestingDeployment.png, id=67, 481.04718pt x 144.54pt>
+File: ./Images/AutomatedTestingDeployment.png Graphic file (type png)
+<use ./Images/AutomatedTestingDeployment.png>
+Package pdftex.def Info: ./Images/AutomatedTestingDeployment.png  used on input
+ line 80.
+(pdftex.def)             Requested size: 481.046pt x 144.53963pt.
+
+Overfull \hbox (91.046pt too wide) in paragraph at lines 80--82
+ [][] 
+ []
+
+[18 <./Images/AutomatedTestingDeployment.png>]
+Overfull \hbox (30.03972pt too wide) in paragraph at lines 92--94
+\OT1/cmr/m/n/12 But there are dis-ad-van-tages. A po-ten-tial risk to con-tin-u
+-ous de-ploy-ment/integration
+ []
+
+) [19] (Chapter2/DomainDrivenDesign.tex [20]) [21]
+(Chapter2/SingleResponsibilityPrinciple.tex) [22] (Chapter2/RESTful.tex
+[23]) [24] [25] [26] [27] [28]) [29] (Chapter3/ProposedDesign.tex)
+(Chapter4/Chp4Prototype.tex [30] (Chapter4/ReqSpec.tex
+Overfull \hbox (6.58894pt too wide) in paragraph at lines 17--19
+[]\OT1/cmr/m/n/12 This pro-to-type will pro-vide ba-sic func-tions com-monly fo
+und in E-commerce
+ []
+
+[31] [32] [33] [34])) [35] [36] [37] (Dissertation.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+[]\OT1/cmr/m/n/12 Douglas K Barry.  Ser-vice ar-chi-tec-ture.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 https://www.service-architecture.com/articles/web-services/serv
+ice-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+[]\OT1/cmr/m/n/12 Melvin Con-way.  How do com-mit-tees in-vent?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+[]\OT1/cmr/m/n/12 Martin Fowler.  Bounded con-text.
+ []
+
+
+Overfull \hbox (156.22166pt too wide) in paragraph at lines 40--45
+[]\OT1/cmr/m/n/12 Martin Fowler.  Mi-croser-vices.  https://www.martinfowler.co
+m/articles/microservices.html%#footnote-
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 47--50
+[]\OT1/cmr/m/n/12 Todd Hoff.  Ama-zon ar-chi-tec-ture.  highscalability.com/ama
+zon-
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 62--67
+[]\OT1/cmr/m/n/12 Yury Izrailevsky and Ariel Tseitlin.  The net-flix's simian a
+rmy.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--67
+\OT1/cmr/m/n/12 https://medium.com/netflix-techblog/the-netflix-simian-army-
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 69--74
+[]\OT1/cmr/m/n/12 lokesh Gupta.  Mi-croser-vices - def-i-ni-tion, prin-ci-ples 
+and ben-e-
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 96--100
+[]\OT1/cmr/m/n/12 Margaret Rouse.  Mono-lithic ar-chi-tec-ture.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--100
+\OT1/cmr/m/n/12 https://whatis.techtarget.com/definition/monolithic-architectur
+e,
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 106--109
+[]\OT1/cmr/m/n/12 Teach Com-puter Sci-ence.  Syn-chronous and asyn-chronous dat
+a
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 106--109
+\OT1/cmr/m/n/12 trans-mis-sion.  https://teachcomputerscience.com/synchronous-a
+nd-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+[]\OT1/cmr/m/n/12 techopedia.  Mod-u-lar pro-gram-ming.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+\OT1/cmr/m/n/12 https://www.techopedia.com/definition/25912/modular-programming
+,
+ []
+
+) [39] [40] (Dissertation.aux) ) 
+Here is how much of TeX's memory you used:
+ 3570 strings out of 492970
+ 58157 string characters out of 3125262
+ 125051 words of memory out of 3000000
+ 7354 multiletter control sequences out of 15000+200000
+ 9495 words of font info for 33 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,11n,43p,1103b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Jonathan/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Jonathan/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jonat
+han/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<C:/Users/Jonathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jonathan/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Dissertation.pdf (41 pages, 354348 bytes).
+PDF statistics:
+ 163 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

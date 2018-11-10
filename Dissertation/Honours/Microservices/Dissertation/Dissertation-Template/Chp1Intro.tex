@@ -1,0 +1,67 @@
+\section{Chapter 1: Introduction}
+	\subsection{Background}
+	Traditionally, software applications/systems are developed using the Monolithic Architecture – a unified model of the design of a software program \cite{MonolithMargaret}. They are designed to be self-contained: components of the program are interconnected and interdependent. For this tightly coupled architecture to work, each component and dependent component’s must be present for the code to compiled or executed. If any component is missing, there is a high chance the program will not work correctly.
+	The rapid increase of software systems has changed the shape of how businesses function in today’s world. As businesses have expanded and added new products/services, problems arose where the Monolithic code base would become difficult to maintain and any future changes could result in problems arising when implemented.
+	For the past thirty years, the software industry has been moving every closer to a service-orientated approach \cite{SoADummies}. This evolution has resulted in a closer bond between businesses and IT. Instead of businesses making decisions controlled or constrained by software, they now make decision supported by software. 
+	
+	Service Orientated Architectures (SOA) were the first realisation of transforming monolithic systems into small building blocks – components – that work together to create applications that are easier to maintain and expand upon. A service is defined as: a function that is well-defined, self-contained, and does not depend on the context or state of other services \cite{ServiceArchiBarry}.
+	Around seven years ago, at a workshop of architects in Venice, the participants saw a common architectural style they had all been recently exploring. The term “Microservices” was created \cite{MartinFowlersite}. It describes a particular way of designing software applications as suites of independently deployable services. That can be maintained and modified effectively to meet the demands of the business world in the present day.
+	
+	By describing each function, of a software system, as an individual service; they can be separated into their own components, contained within their own domain model. Doing this entails each service has a single responsibility to perform and no more. This would also entail each service to have its own database with which to manipulate data. There would be no shared relational database for the entire system. Although there may be a need for different services to communicate with each if they share specific information in order to maintain the validity of data their databases. The development of containerised software has increased the capability of polyglot programming. Were each Microservice can be written in a different language, and when deployed via containers, they combine, like building blocks, to form the software system. This form of modularity allows for each Microservice to function independently and improves the stability of the system as a whole - if one Microservice was to fail, it would not result in the entire system from failing. 
+	
+	With the recent boom of the internet, particularly in the last decade, Microservices are beginning to be used by retail companies with a large online presence such as: Amazon, Netflix and Ebay. Although retail is not the only sector to use this architecture: Uber, the guardian and Capital One. As the internet has proven to be an excellent platform to deploy systems. More specifically web-based systems.
+	
+	This project investigates and evaluates: designs, principles and technologies related to Microservices used too implement this architecture in developing an E-Commerce web system.
+	\subsection{Motivation}
+	why are you doing this? needed?
+	
+	\subsection{Aims, Objectives and Scope}
+	The aim of this project is to explore how a microservice architecture (MSA) can be used to develop a flexible web based E-commerce system. Finding out the flexibility such an architecture provides and how this can be used to allow developers too maintain/update such systems in the fast-paced environment of today’s world. This project will concentrate on developing a web-based system as the internet has been one of the fastest growing resources available to businesses to expand and meet the ever growing demands of customers. 
+	 
+	These aims are achieved by examining the literature available on Microservices, the principles involved to enforce the Microservice Architecture and the technologies available to create this architecture for developing software to define research questions.
+	A software development environment is then chosen to implement this architecture in a prototype system.
+	Literature research will include: academic white papers, professional journals, lectures, on-line articles and software books. The collected/researched information will be used to answer the questions and provide the necessary understanding to develop a prototype using the microservice architecture. Following this, the project is evaluated, considering the original aims and objectives.
+	
+	As MSA is a relatively new architecture; there is still a broad view for successful implementation. Due to time and cost constraints, this project will focus on web-based design patterns and protocols. As well as software and hardware to design a web system. There will be a limit to the exploration of  applicable principles, design patterns, hardware and software available that cna be used to implement a microservice architecture.
+	
+	\subsection{Outline}
+	This dissertation is structured as follows:
+		\begin{itemize}\itemsep0pt
+			\item \textbf{Chapter 1: Introduction}
+			\\Introduces the topic of microservices, names the aims and objectives and outlines the scope and constraints for this project.
+			\item \textbf{Chapter 2: Literature Review}
+			\\Encompasses all the subjects and terms that are related/representative of a microservice architecture. It will go into detail about why Microservices are being used, why it is preferred over Service-orientated architecture and the technologies currently in use and those being developed. This chapter will also provide a critical and objective analysis of these subjects. 
+			\item \textbf{Chapter 3: Project Planning}
+			\\Provides an overview of the management of the project. With use of a Gantt chart. The methodologies used during the development cycle will also be described. With justification. This chapter will also include a description of the high level functionality needed for the project using the project management tool MoSCoW.
+			\item \textbf{Chapter 4: Prototype} 
+			\\ This chapter contains the following sections:
+				\begin{itemize}
+					\item \textbf{Analysis}
+					\\This chapter will describe the requirements for the development of a prototype. And an analysis of the high-level design of the prototype. Including a diagram of the service interaction.
+					\item \textbf{Design}
+					\\This chapter will provide a detailed design of the structure of the prototype – UI designs, Class diagrams, E-R models etc.
+					\item \textbf{Implementation}
+					\\This chapter will detail the actual development of the prototype. Each staged will be documented. All issues/problems will also be documented along with the solutions. Also, providing a reference for all sources used. Screen shots of the development stages will be provided via appendices.
+					\item \textbf{Testing}
+					\\This chapter will consist of all testing documentation and testing conducted on the prototype. With a description of the testing methodologies used.
+					\item \textbf{Evaluation}
+					\\This chapter will provide a critical and objective analysis of the developed prototype. Providing a detailed description of its success/failure.
+				\end{itemize}
+			\item Chapter 5: Conclusions
+			\\Discusses the project, how effective Microservices architecture is etc. And going forward what further research etc. will be done/required.
+			\item Chapter 6: References
+			\\Contains all references used throughout this document.
+			\item Chapter 7: Appendices
+			\\Houses all the appendices. This includes Gantt charts, UML diagrams, testing documentation and screen shots of: development progress at various stages and working prototype.
+		\end{itemize}
+	\subsection{Summary}
+	This project encompasses the following principles, design patterns and technology:
+	\begin{itemize}
+		\item principle 1
+		\item principle 2
+		\item principle 3
+		\item Design pattern 1
+		\item Design pattern 2
+		\item Design pattern 3
+	\end{itemize}
+	Being a prototype, and a university project, the system will not implement a payment system nor will the login/authentication microservice require any more than a login and password. No personal details will be requested.

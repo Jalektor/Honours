@@ -1,0 +1,122 @@
+\begin{thebibliography}{10}
+
+\bibitem{ServiceArchiBarry}
+Douglas~K Barry.
+\newblock Service architecture.
+\newblock
+  https://www.service-architecture.com/articles/web-services/service-oriented\_architecture\_soa\_definition.html,
+  2000.
+
+\bibitem{ContextUnderstandingMSA}
+Thomas Cerny, Michael~J. Donahoo, and Michal Trnka.
+\newblock Contextual understanding of microservices architecture: Current and
+  future directions.
+\newblock Technical report, Baylor University and Czech Technical University.
+
+\bibitem{ConwayLaw}
+Melvin Conway.
+\newblock How do committees invent?
+\newblock http://www.melconway.com/Home/Committees\_Paper.html, 1968.
+
+\bibitem{mci/Diepenbrock2017}
+Andreas Diepenbrock, Florian Rademacher, and Sabine Sachweh.
+\newblock An ontology-based approach for domain-driven design of microservice
+  architectures.
+\newblock In Maximilian Eibl and Martin Gaedke, editors, {\em INFORMATIK 2017},
+  pages 1777--1791. Gesellschaft für Informatik, Bonn, 2017.
+
+\bibitem{EvansDDD}
+Eric Evans.
+\newblock {\em Domain Driven Design: Tackling Complexity in the heart of
+  software}.
+\newblock Addison Wesley, 1st edition, 2003.
+
+\bibitem{MFowlerDDD}
+Martin Fowler.
+\newblock Bounded context.
+\newblock https://martinfowler.com/bliki/BoundedContext.html, 2014.
+
+\bibitem{MartinFowlersite}
+Martin Fowler.
+\newblock Microservices.
+\newblock
+  https://www.martinfowler.com/articles/microservices.html\%\#footnote-monolith,
+  2014.
+
+\bibitem{HoffAmazonArchi}
+Todd Hoff.
+\newblock Amazon architecture.
+\newblock highscalability.com/amazon-architecture, 2007.
+
+\bibitem{HunterAdvMSA}
+Thomas Hunter.
+\newblock {\em Advanced microservices}.
+\newblock Apress, 1st edition, 2017.
+
+\bibitem{SoADummies}
+Judith Hurwitz, Robin Bloor, Marcia Kaufman, and Fern Halper.
+\newblock {\em Service Orientated Architecture for dummies}.
+\newblock Wiley, 2 edition, 2009.
+
+\bibitem{SimianArmy}
+Yury Izrailevsky and Ariel Tseitlin.
+\newblock The netflix's simian army.
+\newblock
+  https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116,
+  2011.
+
+\bibitem{GuptaMSA}
+lokesh Gupta.
+\newblock Microservices - definition, principles and benefits.
+\newblock
+  https://howtodojava.com/microservices/microservices-definition-principles-benefits/\#principles,
+  2016.
+
+\bibitem{RobMartCleanArchi}
+Robert~C. Martin.
+\newblock {\em Clean Architecture A craftsman's guide to Software Structure and
+  Design}.
+\newblock Prentice Hall, 1st edition, 2018.
+
+\bibitem{.NetMSA}
+Microsoft.
+\newblock {\em .NET-microservice for containerized NET applications}.
+\newblock Microsoft Developer Division, 2nd edition, 2018.
+
+\bibitem{NewmanMSA}
+Sam Newman.
+\newblock {\em Building Microservices}.
+\newblock O'Reilly Media, 1st edition, 2015.
+
+\bibitem{DDDChallenges}
+Florian Rademacher, Jones Sorgalla, and Sabine Sachweh.
+\newblock Challenges of domain-driven microservice design, 2018.
+
+\bibitem{MonolithMargaret}
+Margaret Rouse.
+\newblock Monolithic architecture.
+\newblock https://whatis.techtarget.com/definition/monolithic-architecture,
+  2016.
+
+\bibitem{SchroderMSA}
+Dr.Andreas Schroeder.
+\newblock Microservice architectures.
+
+\bibitem{SynchAsynch}
+Teach~Computer Science.
+\newblock Synchronous and asynchronous data transmission.
+\newblock https://teachcomputerscience.com/synchronous-and-asynchronous/, 1999.
+
+\bibitem{TechopediaModular}
+techopedia.
+\newblock Modular programming.
+\newblock https://www.techopedia.com/definition/25912/modular-programming,
+  2018.
+
+\bibitem{Zimmermann2017}
+Olaf Zimmermann.
+\newblock Microservices tenets.
+\newblock {\em Computer Science - Research and Development}, 32(3):301--310,
+  url=, Jul 2017.
+
+\end{thebibliography}

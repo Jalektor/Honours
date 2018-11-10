@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {1}Chapter 1: Introduction}{8}
+\contentsline {subsection}{\numberline {1.1}Background}{8}
+\contentsline {subsection}{\numberline {1.2}Motivation}{9}
+\contentsline {subsection}{\numberline {1.3}Aims, Objectives and Scope}{9}
+\contentsline {subsection}{\numberline {1.4}Outline}{10}
+\contentsline {subsection}{\numberline {1.5}Summary}{11}
+\contentsline {section}{\numberline {2}Chapter 2: Literary Review}{12}
+\contentsline {subsection}{\numberline {2.1}Microservice}{12}
+\contentsline {subsection}{\numberline {2.2}Domain Driven Design}{12}
+\contentsline {subsection}{\numberline {2.3}Single-Responsibility Principle}{12}
+\contentsline {subsection}{\numberline {2.4}RESTful}{12}
+\contentsline {subsubsection}{\numberline {2.4.1}Communication}{12}
+\contentsline {subsubsection}{\numberline {2.4.2}API's}{12}
+\contentsline {subsubsection}{\numberline {2.4.3}CRUD Service}{12}
+\contentsline {subsection}{\numberline {2.5}polyglot Programming}{12}
+\contentsline {section}{Appendices}{14}
+\contentsline {section}{\numberline {A}Project Overview}{14}
+\contentsline {subsection}{\numberline {A.A}Example sub appendices}{14}
+\contentsline {section}{\numberline {B}Second Formal Review Output}{14}
+\contentsline {section}{\numberline {C}Diary Sheets (or other project management evidence)}{14}
+\contentsline {section}{\numberline {D}Appendix 4 and following}{14}

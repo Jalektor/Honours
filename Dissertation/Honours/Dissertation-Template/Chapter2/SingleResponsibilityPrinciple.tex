@@ -1,0 +1,8 @@
+ Single Responsibility Principle (SRP) is one of the SOLID Principles described by Robert Martin \cite{RobMartCleanArchi}.
+ He proposes this principle follows on from Conway's Law: the structure of a software system mirrors the communication design of the business that uses the software and that each module should only have one reason to change. And each software module should only be responsible for a single actor, not do just one thing.
+ Each Microservice should be its own module, within MSA, and have a single responsibility to provides its intended service a single actor - be that for a user, stakeholder, internal software process, business policy etc. This design principle ensures each microservices is easy to understand and maintainable: allowing for changes to occur based on the requirements of the users. 
+ Another benefit provided is each service can be used as the basis of components to be used in many different software systems. Creating the notion that services themselves are modular in design.
+ Using this principle in developing microservices enforces cohesiveness. Each class, function etc of a Microservice combine to form the Microservice. 
+ Microservices take the single responsibility a step further by also including the data storage (database) as part of the principle. Monolithic software systems share a single, large database for data storage. The Microservice Architecture is designed so each Microservice has its own database, purely to store the data it needs. Nothing else.
+ 
+ This addition to the SRP ensures there is very little, if any, coupling between Microservices. And prevents any actions from a Microservices affecting any other Microservice of the system.

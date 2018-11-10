@@ -1,0 +1,135 @@
+\subsubsection{Purpose}
+The purpose of this document is too detail the requirements of the project's Web system Prototype. The Requirement specification contains the following headlines:
+\begin{itemize}
+	\item Project Brief - provides a description of the web system prototype. %as there is no "client" this may be the best option atm.
+	\item Scope - details the size of the project
+	\item Resources - What suitable resources have been sourced to implement the prototype 
+	\item User Requirements - Provides a description of the services provided to users
+	\item System Overview - contains an overview of what the system will do
+	\item System Architecture - provides a high-level understanding of the design structure of the web system
+	\item Functional Requirements - Details what each Microservices function
+	\item Non-Functional Requirements - details the design of the front-end web User Interface (UI)
+	\item Performance - contains the expected performance of the system
+\end{itemize}
+\subsubsection{Project Brief}
+The prototype to be created will be an E-commerce web system. The web system will allow users to perform actions commonly associated with E-commerce web systems.
+
+This prototype will provide basic functions commonly found in E-commerce websites:
+\begin{itemize}
+	\item A simple authentication service in the form of register and login
+	\item Search for specific catalogue items
+	\item Add items to Basket 
+	\item manipulate items in the basket - edit/delete items
+	\item Deal of the week
+\end{itemize}
+These functions will form the bounded context of Microservices within this prototype.
+
+Due to this being a prototype system and the constraints of being a university student, in terms of confidentiality and data protection, this prototype will not be providing a means to buy items. And the register function will only ask for a user name and password to be created by the user. no personal data will be requested.
+\subsubsection{Scope}
+The web system will allow users to register a login name and password to use the features of the site. The catalogue available for browsing will be limited to a few items under the following categories:
+\begin{itemize}
+	\item clothes 
+	\item toys  
+	\item Electronics 
+	\item books 
+	\item miscellaneous
+\end{itemize}
+Users will also be able to add more than one item to their basket, selecting the quantity of each item they want to add.
+
+The web system prototype must be usable for all major web browsers. The User Interface (UI) will be a simple and non-complex design so users can use it successfully.
+
+This prototype will be finished by -Insert date xx/xx/2019- 
+\subsubsection{Resources}
+This project will use the following development software:
+\begin{itemize}
+	\item Microsoft Visual Studio - to develop the web system prototype using asp.net
+	\item Programming code - C\# will be used to write the coding of the software and SQL will be used for all database query command
+	\item Microsoft Visio - To create the UML diagrams used for the Analysis \& Design stages
+	\item TeXstudio - Used to write up any documents required
+	\item SQLite/Entity Framework - this will be used to store necessary data permanently
+\end{itemize}
+\subsubsection{User Requirement}
+
+\subsubsection{System Overview}
+The project will a web system that can run on the main web browsers available: Mozilla Firefox, Google Chrome, Microsoft Edge, Opera, Safari.
+
+The Web system will provide several web pages that provide the user with different information and functionality depending on that web pages requirements.
+
+Each Microservice will perform a single function that is derived from the business domain and bound within the context of that domain.
+
+To simulate a distributed system, the web system and some microservices will be separated and treated as a client-server set up. Where by the Microservice(s) will be communicated with over the local host of the machine used for deployment.
+
+Visual Studio will be used to develop the web system. 
+
+The business model, databases, will be created using the Entity framework or SQLite. And each Microservice will have its own database that it is solely responsible.
+\subsubsection{System Architecture}
+The web system will incorporate the following architectures and design principles:
+	\begin{itemize}\itemsep0pt
+	\item \textbf{Microservice Architecture}
+	\\This will be used for the high-level design of the website.
+	\item \textbf{Model-View-Controller (MVC)}
+	\\This layered Architecture style will be used within the front-end user Interface.This layered Architecture will also be the entry point to access the API gateway to access the required Microservice.
+	\item \textbf{RESTful API}
+	\\Used within the MVC architecture to provide the communication between the UI and Microservices in regards to database usage. Implementing GET,PUT,DELETE and POST HTTP methodologies.
+	\item \textbf{API Gateway Pattern}
+	\\Used to provide the access for the front-end User Interface to the individual Microservices available. The API gateway will provide the methods needed to access the required Microservice.
+	\item \textbf{Domain Driven Design (DDD) Principle}
+	\\ The model layer will be created using this principle so each model will be constructed to contain the business domain it was constructed for and each model will have its bounded context.
+	\item \textbf{Single Responsibility Principle}
+	\\ Will coincide with the above principle to be enforced and ensures each Microservice has only one main function to perform and, thusly, will only require minor changes for future expansion/maintenance
+	\end{itemize}
+\subsubsection{Functional Requirements}
+The functional requirements will display the microservices to be developed and the functionality associated with each.
+The web system will provide the following Microservices:
+\begin{itemize}
+	\item Authentication service
+	\item Catalogue service
+	\item Search Service
+	\item Basket service
+	\item payment service?
+	\item Administrator Service
+	\item Customer service service
+	\item customer service
+\end{itemize}
+And provide the following functionality:
+	\paragraph{Authentication Service}
+		\begin{itemize}
+			\item Provide users the ability to register
+			\item Provide users the ability to login
+			\item identify type of user logging in - customer or administrator
+		\end{itemize}
+	\paragraph{Catalogue Service}
+		\begin{itemize}
+			\item Fill the home page with a selection of available items
+			\item Provide a detailed description of each item selected by a user
+			\item Allow the user to select more than one of an item to buy
+			\item Allow users to add items to their list
+		\end{itemize}
+	\paragraph{Search Service}
+		\begin{itemize}
+			\item Allow users to search for specific items from the catalogue
+		\end{itemize}
+	\paragraph{Basket Service}
+		\begin{itemize}
+			\item Allow users to view the items in their "basket"
+			\item Allow users to edit their basket - delete items and increase/decrease the number ordered of individual items
+		\end{itemize}
+	\paragraph{Payment Service}
+		\begin{itemize}
+			\item Allows users to view their items they wish to buy
+			\item Provide Users with options on how they want items delivered
+			\item Provide Users with multiple Payment options
+			\item Display an invoice of the order made
+			\item send an email confirmation of the order to the customer
+		\end{itemize}
+	\paragraph{Administrator service}
+	\paragraph{Customer service service}
+	\paragraph{Customer service}
+		\begin{itemize}
+			\item Provide Customers the ability to view previous orders
+			\item Provide Customers the ability to view lists they have created
+			\item Allow uses to change their password if needed
+		\end{itemize}
+\subsubsection{Non-Functional Requirements}
+\subsubsection{Performance}
+\subsubsection{Glossary}
