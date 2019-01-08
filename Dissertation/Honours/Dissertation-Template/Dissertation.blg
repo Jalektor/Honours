@@ -3,31 +3,55 @@ The style file: plain.bst
 Database file #1: Bibliography.bib
 Warning--entry type for "ServiceArchiBarry" isn't style-file defined
 --line 1 of file Bibliography.bib
-Warning--entry type for "MonolithMargaret" isn't style-file defined
+Warning--entry type for "PolyglotProgTechTarget" isn't style-file defined
 --line 7 of file Bibliography.bib
-Warning--entry type for "GuptaMSA" isn't style-file defined
+Warning--entry type for "PolyglotOrigins" isn't style-file defined
 --line 13 of file Bibliography.bib
-Warning--entry type for "HoffAmazonArchi" isn't style-file defined
+Warning--entry type for "PolyglotMFowler" isn't style-file defined
 --line 19 of file Bibliography.bib
-Warning--entry type for "ConwayLaw" isn't style-file defined
+Warning--entry type for "PolyglotPersistLeberknight" isn't style-file defined
 --line 25 of file Bibliography.bib
-Warning--entry type for "SimianArmy" isn't style-file defined
+Warning--entry type for "PolyglotSerra" isn't style-file defined
 --line 31 of file Bibliography.bib
-Warning--entry type for "TechopediaModular" isn't style-file defined
+Warning--string name "what" is undefined
+--line 33 of file Bibliography.bib
+I was expecting a `,' or a `}'---line 33 of file Bibliography.bib
+ :  title = what 
+ :               is Polyglot Persistence?",
+I'm skipping whatever remains of this entry
+Warning--entry type for "MonolithMargaret" isn't style-file defined
 --line 37 of file Bibliography.bib
-Warning--entry type for "MFowlerDDD" isn't style-file defined
+Warning--entry type for "GuptaMSA" isn't style-file defined
 --line 43 of file Bibliography.bib
-Warning--entry type for "SynchAsynch" isn't style-file defined
+Warning--entry type for "HoffAmazonArchi" isn't style-file defined
 --line 49 of file Bibliography.bib
-Warning--entry type for "MartinFowlersite" isn't style-file defined
+Warning--entry type for "ConwayLaw" isn't style-file defined
+--line 55 of file Bibliography.bib
+Warning--entry type for "SimianArmy" isn't style-file defined
+--line 61 of file Bibliography.bib
+Warning--entry type for "TechopediaModular" isn't style-file defined
+--line 67 of file Bibliography.bib
+Warning--entry type for "MFowlerDDD" isn't style-file defined
+--line 73 of file Bibliography.bib
+Warning--entry type for "SynchAsynch" isn't style-file defined
+--line 79 of file Bibliography.bib
+Warning--entry type for "EFMicrosoft" isn't style-file defined
+--line 85 of file Bibliography.bib
+Warning--entry type for "EFMicrosoftQuickStart" isn't style-file defined
+--line 91 of file Bibliography.bib
+Warning--entry type for "EFCSharpCorner" isn't style-file defined
 --line 97 of file Bibliography.bib
+Warning--entry type for "DependInjectMicrosoft" isn't style-file defined
+--line 103 of file Bibliography.bib
+Warning--entry type for "MartinFowlersite" isn't style-file defined
+--line 151 of file Bibliography.bib
 Warning--entry type for "DDDChallenges" isn't style-file defined
---line 114 of file Bibliography.bib
-I was expecting a `,' or a `}'---line 136 of file Bibliography.bib
+--line 168 of file Bibliography.bib
+I was expecting a `,' or a `}'---line 190 of file Bibliography.bib
  :  url="
  :       https://doi.org/10.1007/s00450-016-0337-0"
 I'm skipping whatever remains of this entry
 Warning--empty year in ContextUnderstandingMSA
 Warning--empty booktitle in SchroderMSA
 Warning--empty year in SchroderMSA
-(There was 1 error message)
+(There were 2 error messages)

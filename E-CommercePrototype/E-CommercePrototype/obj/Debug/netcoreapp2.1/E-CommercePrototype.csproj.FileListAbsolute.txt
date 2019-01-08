@@ -1,3 +1,0 @@
-C:\Users\j_mit\Desktop\E-CommercePrototype\E-CommercePrototype\obj\Debug\netcoreapp2.1\E-CommercePrototype.csproj.CoreCompileInputs.cache
-C:\Users\j_mit\Desktop\E-CommercePrototype\E-CommercePrototype\obj\Debug\netcoreapp2.1\E-CommercePrototype.AssemblyInfoInputs.cache
-C:\Users\j_mit\Desktop\E-CommercePrototype\E-CommercePrototype\obj\Debug\netcoreapp2.1\E-CommercePrototype.AssemblyInfo.cs

@@ -1,4 +1,4 @@
-Representational State Transfer (REST) is an architectural style for systems built on the web \cite{SchroderMSA} \& \cite{NewmanMSA}. REST is used to build on protocols and standards like HTTP.  It uses HTTP, and similar protocols, to do more than static web content. 
+Representational State Transfer (REST) is an architectural style for systems built on the web \cite{SchroderMSA} \& \cite{NewmanMSA}. REST is used to build on protocols and standards like HTTP.  It uses HTTP, and similar protocols, to do more than static web content. Unfortunately there is limited information available in regards to RESTful implementation. Possibly due to academic papers/books/research being unavailable at the time of writing this report or there is relatively little to write about it.
 
 Using the verbs available through HTTP, the REST architecture style prevents the need to create a multitude of different methods to do the same thing \cite{NewmanMSA}. For example, an object of a new customer created would only need to call the verb POST to request the server create a new resource and perform the request. GET would only need to be called to retrieve the representation of a resource. 
 
@@ -6,7 +6,7 @@ REST can also make use of the large HTTP ecosystem: caching proxies, load balanc
 
 It uses the HTTP verbs to manipulates resources. This can be used to implement the CRUD (Create Read Update Delete) principle when using databases.
 
-Newmann \cite{NewmanMSA} describes the most important concept of using REST is resources. Resources are viewed, by services, as a "thing" it knows about. The resources can have different representations, depending on the server request. This flexibility allows complete decoupling from the external representation of a resource to how it is stored.
+Newman \cite{NewmanMSA} describes the most important concept of using REST is resources. Resources are viewed, by services, as a "thing" it knows about. The resources can have different representations, depending on the server request. This flexibility allows complete decoupling from the external representation of a resource to how it is stored.
 
 \subsubsection{Communication}
 Each service can be deployed on different machines or they can all be deployed from a single machine. Depending on the quantity of microservices created and the hardware/software availability of businesses.
@@ -23,3 +23,4 @@ Using Application Program Interfaces in a web-based MSA system allows decoupling
 
 The Front-end user interface will pass requests, from the user, to the gateway which will then implement the required Microservice through its API.
 \subsubsection{CRUD Implementation}
+CRUD, an acronym for Create, Read, Update and Delete. These represent the four basic functions for Persistent storage. Often used with SQL to manipulate data in relational databases, and more recently NoSQL database implementation. CRUD is synonymous with the HTTP verbs: PUT, GET, SET and DELETE. Both go hand in hand.  

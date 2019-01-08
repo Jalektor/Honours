@@ -2,3 +2,17 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Conway's Law\relax }}{15}
 \contentsline {figure}{\numberline {3}{\ignorespaces Built around Business Capabilities\relax }}{16}
 \contentsline {figure}{\numberline {4}{\ignorespaces Automated testing to deployment\relax }}{18}
+\contentsline {figure}{\numberline {5}{\ignorespaces Polyglot Persistence Implementation example\relax }}{26}
+\contentsline {figure}{\numberline {6}{\ignorespaces High Level Design\relax }}{31}
+\contentsline {figure}{\numberline {7}{\ignorespaces Bounded Context\relax }}{33}
+\contentsline {figure}{\numberline {8}{\ignorespaces Interface\relax }}{34}
+\contentsline {figure}{\numberline {9}{\ignorespaces Interactions\relax }}{36}
+\contentsline {figure}{\numberline {10}{\ignorespaces Azure ADO.NET Connection String for the server containing the Catalogue Microservice Database\relax }}{46}
+\contentsline {figure}{\numberline {11}{\ignorespaces Visual Studio Appsetting.JSON connection string. Partial View\relax }}{46}
+\contentsline {figure}{\numberline {12}{\ignorespaces Visual Studio Dependency Injection for the Catalogue Microservice\relax }}{47}
+\contentsline {figure}{\numberline {13}{\ignorespaces Visual Studio API Controller for Catalogue Microservice\relax }}{48}
+\contentsline {figure}{\numberline {14}{\ignorespaces Authentication Classes\relax }}{57}
+\contentsline {figure}{\numberline {15}{\ignorespaces Basket Classes\relax }}{57}
+\contentsline {figure}{\numberline {16}{\ignorespaces Catalogue Classes\relax }}{58}
+\contentsline {figure}{\numberline {17}{\ignorespaces Checkout Classes\relax }}{59}
+\contentsline {figure}{\numberline {18}{\ignorespaces Customer Classes\relax }}{59}

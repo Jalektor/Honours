@@ -1,0 +1,23 @@
+In Summary, the literary review has provided material enough to describe the benefits associated with the Microservice Architecture and the disadvantages.
+
+There is an argument the Microservice Architecture is an effective implementation of the Service-orientated Architecture. There is also evidence to support it is its own architecture aswell.
+
+The separation of services into individual, distributed modules does have its benefits in terms of being able to administer maintenance: bug fixes, adding new function. Also the notion of each service representing a different business capability allowing for distributed teams: each working on a different microservice does allow for teams to ''own'' the microservices they work on. 
+
+The benefit of polyglotism is apparent when using microservices. Individual teams specialising in different programming and database languages, allow for each Microservice to be developed in the language that fulfils its requirements the best. This also includes the accompanying database, if one is required. A downside to this is that only teams or individuals with the knowledge of language used can maintain it.
+
+The use of docker or other container-based software like Kubernetes allows for any Microservice to be deployed from any machine that is able to run the underlying virtualisation software. Learning Docker can be a steep learning curve, even with IDE's providing automation of some of the features. There is significant underlying infrastructure needed for communication to microservices from the front-end interface.
+
+As the microservice architecture is relatively new, there are different views on how the architecture design should be implemented. Some are still being researched and written about.
+
+Of note is the different take on the use of databases. This project will develop a prototype with both styles of database available. Each will be tested individually for all available CRUD implementation for each Microservice. Recording the response times for each and presenting this data, in a visual form, to show which is faster and which style should be preferred for Microservice Architectures.
+
+The following will be used to evaluate this project:
+\begin{itemize}
+	\item The proposed design of the system\\
+	The proposed Design will involve the features and design patterns discussed previously. Involving class diagrams, Microservice interactions, domains etc.
+	\item A successful prototype developed\\
+	Developed based on the proposed design, with an evaluation including the difficulties and easiness in adhering to the design. With a discussion on the advantages/disadvantages of the design. Looking into potential improvements.
+	\item An evaluation of both database styles: centralised and separate\\
+	This will be conducted by simulating use of the website, using testing software described previously, and displaying the gathered data of when the different database styles are queried. Displaying response times and comparing them to help determine why the separated database design is chosen over a centralised one.
+\end{itemize}

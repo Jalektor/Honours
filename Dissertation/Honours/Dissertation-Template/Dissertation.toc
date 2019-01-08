@@ -23,44 +23,56 @@
 \contentsline {paragraph}{\numberline {2.4.1.2}Asynchronous}{24}
 \contentsline {subsubsection}{\numberline {2.4.2}API}{24}
 \contentsline {subsubsection}{\numberline {2.4.3}CRUD Implementation}{24}
-\contentsline {subsection}{\numberline {2.5}polyglot Programming \& Persistence}{25}
-\contentsline {subsection}{\numberline {2.6}Virtualisation}{26}
-\contentsline {subsection}{\numberline {2.7}Asp.Net}{27}
-\contentsline {subsubsection}{\numberline {2.7.1}Razor Pages}{27}
-\contentsline {subsection}{\numberline {2.8}Java Web Development}{28}
-\contentsline {subsection}{\numberline {2.9}Conclusion}{29}
-\contentsline {section}{\numberline {3}Chapter 3: Proposed Design}{30}
-\contentsline {subsection}{\numberline {3.1}Test}{30}
-\contentsline {section}{\numberline {4}Chapter 4: Prototype}{31}
-\contentsline {subsection}{\numberline {4.1}Analysis}{31}
-\contentsline {subsection}{\numberline {4.2}Requirement Specification}{31}
-\contentsline {subsubsection}{\numberline {4.2.1}Purpose}{31}
-\contentsline {subsubsection}{\numberline {4.2.2}Project Brief}{31}
-\contentsline {subsubsection}{\numberline {4.2.3}Scope}{32}
-\contentsline {subsubsection}{\numberline {4.2.4}Resources}{32}
-\contentsline {subsubsection}{\numberline {4.2.5}User Requirement}{33}
-\contentsline {subsubsection}{\numberline {4.2.6}System Overview}{33}
-\contentsline {subsubsection}{\numberline {4.2.7}System Architecture}{33}
-\contentsline {subsubsection}{\numberline {4.2.8}Functional Requirements}{34}
-\contentsline {paragraph}{\numberline {4.2.8.1}Authentication Service}{34}
-\contentsline {paragraph}{\numberline {4.2.8.2}Catalogue Service}{35}
-\contentsline {paragraph}{\numberline {4.2.8.3}Search Service}{35}
-\contentsline {paragraph}{\numberline {4.2.8.4}Basket Service}{35}
-\contentsline {paragraph}{\numberline {4.2.8.5}Payment Service}{35}
-\contentsline {paragraph}{\numberline {4.2.8.6}Administrator service}{35}
-\contentsline {paragraph}{\numberline {4.2.8.7}Customer service service}{35}
-\contentsline {paragraph}{\numberline {4.2.8.8}Customer service}{35}
-\contentsline {subsubsection}{\numberline {4.2.9}Non-Functional Requirements}{36}
-\contentsline {subsubsection}{\numberline {4.2.10}Performance}{36}
-\contentsline {subsubsection}{\numberline {4.2.11}Glossary}{36}
-\contentsline {subsection}{\numberline {4.3}Design}{36}
-\contentsline {subsection}{\numberline {4.4}Development}{36}
-\contentsline {subsection}{\numberline {4.5}Testing}{36}
-\contentsline {subsection}{\numberline {4.6}Evaluation}{36}
-\contentsline {section}{\numberline {5}Chapter 5: Conclusion/Evaluation}{37}
-\contentsline {section}{Appendices}{40}
-\contentsline {section}{\numberline {A}Project Initiation Document}{40}
-\contentsline {subsection}{\numberline {A.A}Example sub appendices}{40}
-\contentsline {section}{\numberline {B}Second Formal Review Output}{40}
-\contentsline {section}{\numberline {C}Diary Sheets (or other project management evidence)}{40}
-\contentsline {section}{\numberline {D}Appendix 4 and following}{40}
+\contentsline {subsection}{\numberline {2.5}Polyglotism}{25}
+\contentsline {subsubsection}{\numberline {2.5.1}Polyglot Programming}{25}
+\contentsline {subsubsection}{\numberline {2.5.2}Polyglot Persistence}{25}
+\contentsline {subsection}{\numberline {2.6}Virtualisation}{27}
+\contentsline {subsection}{\numberline {2.7}Asp.Net}{28}
+\contentsline {subsubsection}{\numberline {2.7.1}Razor Pages}{28}
+\contentsline {subsection}{\numberline {2.8}Java Web Development}{29}
+\contentsline {subsection}{\numberline {2.9}Conclusion}{30}
+\contentsline {section}{\numberline {3}Chapter 3: Proposed Design}{31}
+\contentsline {section}{\numberline {4}Chapter 4: Prototype}{39}
+\contentsline {subsection}{\numberline {4.1}Analysis}{39}
+\contentsline {subsection}{\numberline {4.2}Requirement Specification}{39}
+\contentsline {subsubsection}{\numberline {4.2.1}Purpose}{39}
+\contentsline {subsubsection}{\numberline {4.2.2}Project Brief}{39}
+\contentsline {subsubsection}{\numberline {4.2.3}Scope}{40}
+\contentsline {subsubsection}{\numberline {4.2.4}Resources}{40}
+\contentsline {subsubsection}{\numberline {4.2.5}User Requirement}{41}
+\contentsline {subsubsection}{\numberline {4.2.6}System Overview}{41}
+\contentsline {subsubsection}{\numberline {4.2.7}System Architecture}{41}
+\contentsline {subsubsection}{\numberline {4.2.8}Functional Requirements}{42}
+\contentsline {paragraph}{\numberline {4.2.8.1}Authentication Service}{42}
+\contentsline {paragraph}{\numberline {4.2.8.2}Catalogue Service}{43}
+\contentsline {paragraph}{\numberline {4.2.8.3}Search Service}{43}
+\contentsline {paragraph}{\numberline {4.2.8.4}Basket Service}{43}
+\contentsline {paragraph}{\numberline {4.2.8.5}Payment Service}{43}
+\contentsline {paragraph}{\numberline {4.2.8.6}Administrator service}{43}
+\contentsline {paragraph}{\numberline {4.2.8.7}Customer service service}{43}
+\contentsline {paragraph}{\numberline {4.2.8.8}Customer service}{43}
+\contentsline {subsubsection}{\numberline {4.2.9}Non-Functional Requirements}{44}
+\contentsline {subsubsection}{\numberline {4.2.10}Performance}{44}
+\contentsline {subsubsection}{\numberline {4.2.11}Glossary}{44}
+\contentsline {subsection}{\numberline {4.3}Design}{44}
+\contentsline {subsection}{\numberline {4.4}Development}{45}
+\contentsline {subsubsection}{\numberline {4.4.1}Prototype Development with separate databases}{45}
+\contentsline {subsubsection}{\numberline {4.4.2}Catalogue Microservice}{45}
+\contentsline {subsubsection}{\numberline {4.4.3}Basket Microservice}{48}
+\contentsline {subsubsection}{\numberline {4.4.4}Prototype Development with a single centralised database}{49}
+\contentsline {subsubsection}{\numberline {4.4.5}Front-End website development}{49}
+\contentsline {paragraph}{\numberline {4.4.5.1}Displaying Catalogue Items}{49}
+\contentsline {subsection}{\numberline {4.5}Testing}{50}
+\contentsline {subsection}{\numberline {4.6}Evaluation}{51}
+\contentsline {section}{\numberline {5}Chapter 5: Conclusion/Evaluation}{52}
+\contentsline {section}{Appendices}{56}
+\contentsline {section}{\numberline {A}Project Initiation Document}{56}
+\contentsline {subsection}{\numberline {A.A}Example sub appendices}{56}
+\contentsline {section}{\numberline {B}Second Formal Review Output}{56}
+\contentsline {section}{\numberline {C}Diary Sheets (or other project management evidence)}{56}
+\contentsline {section}{\numberline {D}Class Diagrams}{57}
+\contentsline {subsection}{\numberline {D.A}Authentication Microservice Classes}{57}
+\contentsline {subsection}{\numberline {D.B}Basket Microservice Classes}{57}
+\contentsline {subsection}{\numberline {D.C}Catalogue Microservice Classes}{58}
+\contentsline {subsection}{\numberline {D.D}Checkout Microservice Classes}{59}
+\contentsline {subsection}{\numberline {D.E}Customer Microservice Classes}{59}

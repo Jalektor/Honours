@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ECommercePrototype.Web.Models.Catalogue.CatalogueHelper>
+@{
+    ViewData["Title"] = "Home page";
+}
+<strong>Index</strong>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(Model => Model.ItemID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(Model => Model.ItemName)
+            </th>
+            <th>
+                Picture
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ItemID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ItemName)
+                </td>
+                <td>
+                    <img src="~/images/@item.Pic" />
+                </td>
+                <td>
+                    @Html.ActionLink("View Item Details", "Details", new { id = item.ItemID })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -31,6 +31,18 @@ Eric Evans.
   software}.
 \newblock Addison Wesley, 1st edition, 2003.
 
+\bibitem{PolyglotProgTechTarget}
+Neal Ford.
+\newblock Polyglot programming.
+\newblock
+  https://searchsoftwarequality.techtarget.com/definition/polyglot-programming,
+  2006.
+
+\bibitem{PolyglotMFowler}
+Martin Fowler.
+\newblock Polyglot persistence.
+\newblock https://martinfowler.com/bliki/PolyglotPersistence.html, 2011.
+
 \bibitem{MFowlerDDD}
 Martin Fowler.
 \newblock Bounded context.
@@ -65,6 +77,11 @@ Yury Izrailevsky and Ariel Tseitlin.
   https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116,
   2011.
 
+\bibitem{PolyglotPersistLeberknight}
+Scott Leberknight.
+\newblock Polyglot persistence.
+\newblock www.sleberknight.com/blog/sleberkn/entry/polyglot\_persistence, 2008.
+
 \bibitem{GuptaMSA}
 lokesh Gupta.
 \newblock Microservices - definition, principles and benefits.
@@ -78,19 +95,45 @@ Robert~C. Martin.
   Design}.
 \newblock Prentice Hall, 1st edition, 2018.
 
+\bibitem{EFMicrosoft}
+Microsoft.
+\newblock Asp.net core mvc with entity framework core.
+\newblock
+  https://docs.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-2.0,
+  2018.
+
 \bibitem{.NetMSA}
 Microsoft.
 \newblock {\em .NET-microservice for containerized NET applications}.
 \newblock Microsoft Developer Division, 2nd edition, 2018.
+
+\bibitem{EFMicrosoftQuickStart}
+Microsoft.
+\newblock Quickstart: Use .net core (c\#) to query an azure sql database.
+\newblock
+  https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-dotnet-core,
+  2018.
 
 \bibitem{NewmanMSA}
 Sam Newman.
 \newblock {\em Building Microservices}.
 \newblock O'Reilly Media, 1st edition, 2015.
 
+\bibitem{EFCSharpCorner}
+Nitin Pandit.
+\newblock Entity framework with microsoft azure sql.
+\newblock
+  https://www.c-sharpcorner.com/article/entity-framework-with-microsoft-azure-sql/,
+  2016.
+
 \bibitem{DDDChallenges}
 Florian Rademacher, Jones Sorgalla, and Sabine Sachweh.
 \newblock Challenges of domain-driven microservice design, 2018.
+
+\bibitem{PolyglotOrigins}
+Margaret Rouse.
+\newblock Polyglot programming.
+\newblock memeagora.blogspot.com/2006/12/polyglot-programming.html, 2006.
 
 \bibitem{MonolithMargaret}
 Margaret Rouse.
@@ -106,6 +149,16 @@ Dr.Andreas Schroeder.
 Teach~Computer Science.
 \newblock Synchronous and asynchronous data transmission.
 \newblock https://teachcomputerscience.com/synchronous-and-asynchronous/, 1999.
+
+\bibitem{PolyglotSerra}
+James Serra.
+
+\bibitem{DependInjectMicrosoft}
+Steve Smith, Scott Addie, and Luke Latham.
+\newblock Dependency injection in asp.net core.
+\newblock
+  https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2,
+  2018.
 
 \bibitem{TechopediaModular}
 techopedia.

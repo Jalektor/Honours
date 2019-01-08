@@ -1,0 +1,14 @@
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\bin\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.deps.json
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\bin\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.runtimeconfig.json
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\bin\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.runtimeconfig.dev.json
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\bin\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.dll
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\bin\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.pdb
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\obj\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.csprojAssemblyReference.cache
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\obj\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.csproj.CoreCompileInputs.cache
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\obj\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.RazorAssemblyInfo.cache
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\obj\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.RazorAssemblyInfo.cs
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\obj\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.AssemblyInfoInputs.cache
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\obj\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.AssemblyInfo.cs
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\obj\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.RazorTargetAssemblyInfo.cache
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\obj\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.dll
+C:\Users\j_mit\Desktop\ECommercePrototype\ECommercePrototype.API.Basket\obj\Debug\netcoreapp2.1\ECommercePrototype.API.Basket.pdb
