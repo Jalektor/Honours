@@ -35,13 +35,17 @@ namespace ECommercePrototype.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddScoped<IAPIConnect, CatalogueAPI>();
-            services.AddScoped<IAPIConnect, BasketAPI>();
+            services.AddScoped<ICatalogueAPI, CatalogueAPI>();
+            services.AddScoped<IBasketAPI, BasketAPI>();
+            services.AddScoped<IAuthenticateAPI, AuthenticateAPI>();
+            services.AddScoped<ICheckoutAPI, CheckoutAPI>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddTransient<IAPIConnect, CatalogueAPI>();
-            services.AddTransient<IAPIConnect, BasketAPI>();
+            services.AddTransient<ICatalogueAPI, CatalogueAPI>();
+            services.AddTransient<IBasketAPI, BasketAPI>();
+            services.AddTransient<IAuthenticateAPI, AuthenticateAPI>();
+            services.AddTransient<ICheckoutAPI, CheckoutAPI>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

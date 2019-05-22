@@ -8,11 +8,12 @@ using ECommercePrototype.Web.Models.Interfaces;
 
 namespace ECommercePrototype.Web.Models.APIConnections
 {
-    public class BasketAPI : IAPIConnect
+    public class BasketAPI : IBasketAPI
     {
         static HttpClient client = new HttpClient();
 
-        private static string _apiBaseUri = "https://localhost:44396/";
+        private static string _apiBaseUri = "https://ecommerceprototypeapibasket.azurewebsites.net/";
+       // private static string _apiBaseUri = "https://localhost:44352";
 
         public HttpClient CreateClient()
         {

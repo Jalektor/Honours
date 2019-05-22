@@ -11,10 +11,11 @@ namespace ECommercePrototype.API.Basket.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int basketItem { get; set; }
         public int CatalogueItemID { get; set; }
         public string ItemName { get; set; }
         public string ItemDescription { get; set; }
-        public float ItemPrice { get; set; }
+        public decimal ItemPrice { get; set; }
         public string ItemBrand { get; set; }
         public string ItemType { get; set; }
         public string Pic { get; set; }

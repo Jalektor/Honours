@@ -8,11 +8,11 @@ using ECommercePrototype.Web.Models.Interfaces;
 
 namespace ECommercePrototype.Web.Models.APIConnections
 {
-    public class CatalogueAPI : IAPIConnect
+    public class CatalogueAPI : ICatalogueAPI
     {
         static HttpClient client = new HttpClient();
 
-        private static string _apiBaseUri = "https://localhost:44396/";
+        private static string _apiBaseUri = "https://catalogueapi.azurewebsites.net/";
 
         public HttpClient CreateClient()
         {

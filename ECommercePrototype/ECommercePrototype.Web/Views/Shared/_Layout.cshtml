@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ECommercePrototype.Web</title>
+    <link rel="stylesheet" href="~/css/site.css"  type="text/css" asp-append-version="true"/>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -25,22 +25,31 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">ECommercePrototype.Web</a>
+                <a asp-area="" asp-controller="Catalogue" asp-action="Index" class="navbar-brand">ECommercePrototype.Web</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-area="" asp-controller="Catalogue" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Basket" asp-action="Index">Basket</a></li>
+                    <li><a asp-area="" asp-controller="Authentication" asp-action="Index">Register</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <partial name="_CookieConsentPartial" />
+    <div>
+        @RenderSection("header", required:false)
+    </div>
+    <div id="sidebar">
+        @RenderSection("sidebar", required:false)
+    </div>
 
-    <div class="container body-content">
+    <div id="main" class="body-content">
         @RenderBody()
         <hr />
         <footer>

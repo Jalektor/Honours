@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Testing the Layout</title>
+    <link rel="stylesheet" href="~/css/site.css" type="text/css" asp-append-version="true"/>
+</head>
+<body>
+    <div id="header">
+        @RenderSection("header")
+    </div>
+    <div id="sidebar">
+        @RenderSection("sidebar")
+    </div>
+    <div id="body-content">
+        @RenderBody()
+        @*@RenderSection("Body", required:true)*@
+    </div>
+    <div id="footer">
+        &copy; 2019 - ECommercePrototype.Web
+    </div>
+</body>
+</html>

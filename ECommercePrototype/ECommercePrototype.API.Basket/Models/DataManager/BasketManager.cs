@@ -15,30 +15,31 @@ namespace ECommercePrototype.API.Basket.Models.DataManager
             context = ctx;
         }
 
-        public BasketItem Add(BasketItem basketItem)
+        public long Add(BasketItem basketItem)
         {
-            var addedItem = context.Basket.Add(basketItem);
-            context.SaveChanges();
-            throw new NotImplementedException();
+
+            context.Basket.Add(basketItem);
+            long basketItemID = context.SaveChanges();
+            return basketItemID;
         }
 
-        public BasketItem Edit(BasketItem basketItem)
+        public void Edit(BasketItem basketItem)
         {
-            var editedItem = context.Basket.Update(basketItem);
-            throw new NotImplementedException();
+            context.Basket.Update(basketItem);
+            context.SaveChanges();
         }
 
         public IEnumerable<BasketItem> GetAll()
         {
             var customerBasket = context.Basket.ToList();
-
             return customerBasket;
         }
 
-        public BasketItem Remove(BasketItem basketItem)
+        public void Remove(int id)
         {
-            var removedItem = context.Basket.Remove(basketItem);
-            throw new NotImplementedException();
+            var basketItem = context.Basket.FirstOrDefault(b => b.CatalogueItemID == id);
+            context.Basket.Remove(basketItem);
+            context.SaveChanges();
         }
     }
 }

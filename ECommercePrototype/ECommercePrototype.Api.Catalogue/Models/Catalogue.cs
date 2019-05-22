@@ -14,7 +14,7 @@ namespace ECommercePrototype.Api.Catalogue.Models
         public int ItemID { get; set; }
         public string ItemName { get; set; }
         public string ItemDescription { get; set; }
-        public float ItemPrice { get; set; }
+        public decimal ItemPrice { get; set; }
         public int ItemAvailableStock { get; set; }
         public string ItemBrand { get; set; }
         public string ItemType { get; set; }

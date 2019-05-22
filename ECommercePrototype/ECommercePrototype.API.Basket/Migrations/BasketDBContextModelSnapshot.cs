@@ -20,9 +20,11 @@ namespace ECommercePrototype.API.Basket.Migrations
 
             modelBuilder.Entity("ECommercePrototype.API.Basket.Models.BasketItem", b =>
                 {
-                    b.Property<int>("CatalogueItemID")
+                    b.Property<int>("basketItem")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CatalogueItemID");
 
                     b.Property<string>("ItemBrand");
 
@@ -30,7 +32,7 @@ namespace ECommercePrototype.API.Basket.Migrations
 
                     b.Property<string>("ItemName");
 
-                    b.Property<float>("ItemPrice");
+                    b.Property<decimal>("ItemPrice");
 
                     b.Property<string>("ItemType");
 
@@ -38,7 +40,7 @@ namespace ECommercePrototype.API.Basket.Migrations
 
                     b.Property<int>("Quantity");
 
-                    b.HasKey("CatalogueItemID");
+                    b.HasKey("basketItem");
 
                     b.ToTable("Basket");
                 });

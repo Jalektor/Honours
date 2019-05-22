@@ -55,12 +55,13 @@
             @Html.DisplayNameFor(model => model.Pic)
         </dt>
         <dd>
-            <img src="@Url.Content(ViewBag.CatalogueItemPic)"/>
+            <img src="@Url.Content(ViewBag.CatalogueItemPic)" width="42" height="42" />
         </dd>
     </dl>
 </div>
 <div>
-    @*@Html.ActionLink("Add Item To Basket", "Basket", new { id = Model.ItemID })*@
-    <a asp-controller="Basket" asp-action="AddItemToBasket" asp-route-id="@Model.ItemID">Add Item To Basket</a>
+    <p class="btn">
+        @Html.ActionLink("Add Item To Basket", "AddItemToBasket", "Basket", Model)
+    </p>
     <a asp-action="Index">Back to Shopping</a>
 </div>

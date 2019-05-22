@@ -14,7 +14,6 @@ namespace ECommercePrototype.Api.Catalogue.Controllers
     [Route("api/[controller]")]
     public class CatalogueController : Controller
     {
-
         private readonly IDataRepository _iRepo;
 
         public CatalogueController(IDataRepository repo)

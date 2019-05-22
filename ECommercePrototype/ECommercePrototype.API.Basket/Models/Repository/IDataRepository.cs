@@ -8,9 +8,9 @@ namespace ECommercePrototype.API.Basket.Models.Repository
     public interface IDataRepository
     {
         IEnumerable<BasketItem> GetAll();
-        BasketItem Add(BasketItem basketItem);
-        BasketItem Edit(BasketItem basketItem);
-        BasketItem Remove(BasketItem basketItem);
+        long Add(BasketItem basketItem);
+        void Edit(BasketItem basketItem);
+        void Remove(int id);
 
     }
 }

@@ -8,6 +8,6 @@ namespace ECommercePrototype.Web.Models.Interfaces
 {
     public interface IBasketAPI
     {
-        HttpClient CreatClient();
+        HttpClient CreateClient();
     }
 }

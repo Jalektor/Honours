@@ -1,0 +1,97 @@
+﻿@model IList<ECommercePrototype.Web.Models.Basket.BasketHelper>
+@{
+    ViewData["Title"] = "Customer Basket";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<strong>Customer Basket</strong>
+@using (Html.BeginForm("PurchaseItems", "checkout", FormMethod.Post, new { List = Model }))
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(Model => Model[0].CatalogueItemID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model[0].ItemName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model[0].ItemDescription)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model[0].ItemPrice)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model[0].ItemBrand)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model[0].ItemType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(Model => Model[0].Pic)
+
+                <th>
+                    @Html.DisplayNameFor(Model => Model[0].Quantity)
+                </th>
+                <th>
+                    New quantity
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null)
+            {
+                for (int i = 0; i < Model.Count(); i++)
+                {
+                    <tr>
+                        <td>
+                            @Html.HiddenFor(m => Model[i].CatalogueItemID)
+                            @Html.DisplayFor(modelItem => Model[i].CatalogueItemID)
+                        </td>
+                        <td>
+                            @Html.HiddenFor(m => Model[i].ItemName)
+                            @Html.DisplayFor(modelItem => Model[i].ItemName)
+                        </td>
+                        <td>
+                            @Html.HiddenFor(m => Model[i].ItemDescription)
+                            @Html.DisplayFor(modelItem => Model[i].ItemDescription)
+                        </td>
+                        <td>
+                            @Html.HiddenFor(m => Model[i].ItemPrice)
+                            @Html.DisplayFor(modelItem => Model[i].ItemPrice)
+                        </td>
+                        <td>
+                            @Html.HiddenFor(m => Model[i].ItemBrand)
+                            @Html.DisplayFor(modelItem => Model[i].ItemBrand)
+                        </td>
+                        <td>
+                            @Html.HiddenFor(m => Model[i].ItemType)
+                            @Html.DisplayFor(modelItem => Model[i].ItemType)
+                        </td>
+                        <td>
+                            <img src="~/images/@Model[i].Pic" width="42" height="42" />
+                        </td>
+                        <td>
+                            @Html.HiddenFor(m => Model[i].Quantity)
+                            @Html.DisplayFor(modelItem => Model[i].Quantity)
+                        </td>
+                        <td>
+                            @Html.DropDownList("aa", new SelectList(ViewBag.AvailQuantity, "Value", "Text"))
+                        </td>
+                        <td>
+                            @Html.ActionLink("Remove Item From Basket", "DeleteItemFromBasket", new { id = Model[i].CatalogueItemID })
+                        </td>
+                        <td>
+                            @Html.ActionLink("Update Item In Basket", "UpdateBasket", new { id = Model[i].CatalogueItemID, Model[i].Quantity })
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    @if(Model != null)
+    {
+        <input type="submit" value="Buy Items" />
+    }
+    
+}

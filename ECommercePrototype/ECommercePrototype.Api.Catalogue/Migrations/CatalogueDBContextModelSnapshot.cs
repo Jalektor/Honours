@@ -32,7 +32,7 @@ namespace ECommercePrototype.Api.Catalogue.Migrations
 
                     b.Property<string>("ItemName");
 
-                    b.Property<float>("ItemPrice");
+                    b.Property<decimal>("ItemPrice");
 
                     b.Property<string>("ItemType");
 
